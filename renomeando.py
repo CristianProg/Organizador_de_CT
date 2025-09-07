@@ -6,13 +6,13 @@ import pytesseract
 
 # Configuração do pytesseract (ajuste o caminho se necessário)
 # Exemplo no Windows:
-pytesseract.pytesseract.tesseract_cmd = r"C:\Users\ccastro\Downloads\AUTOMAÇÂO\ORGANIZADOR DE CT"
+pytesseract.pytesseract.tesseract_cmd = r"COLOQUE O TESSERACT NA MESMA PASTA DO ARQUIVO RENOMEANDO.PY"
 
 # Caminho da pasta onde estão os PDFs
-pasta = r"C:\Users\ccastro\Downloads\AUTOMAÇÂO\ORGANIZADOR DE CT\arquivos"
+pasta = r"COLOQUE O CAMINHO DA PASTA ARQUIVOS"
 
 # Caminho da pasta 'bin' do Poppler (não precisa adicionar ao PATH)
-poppler_path = r"C:\Users\ccastro\Downloads\AUTOMAÇÂO\ORGANIZADOR DE CT\poppler-25.07.0\Library\bin"
+poppler_path = r"ADICIONE O CAMINHO DA PASTA BIN DO POPPLER"
 
 def extrair_texto_pdf(caminho_pdf):
     """Tenta extrair texto diretamente do PDF com PyPDF2"""
